@@ -788,7 +788,6 @@ class PlayState extends MusicBeatState
 		if (curStage == 'forest-rain' && !ClientPrefs.lowQuality)
 			add(rain);
 
-		#if LUA_ALLOWED
 		luaDebugGroup = new FlxTypedGroup<DebugLuaText>();
 		luaDebugGroup.cameras = [camOther];
 		add(luaDebugGroup);
