@@ -186,7 +186,7 @@ class NotesSubstate extends MusicBeatSubstate
 			shaderArray.push(newShader);
 		}
 		hsvText = new Alphabet(0, 0, "Matiz    Saturacao  Brilho", false, false, 0, 0.65);
-		hvsText.color = FlxColor.WHITE;
+		hsvText.color = FlxColor.WHITE;
 		add(hsvText);
 		changeSelection();
 
